@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gesto</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="css/css_tableau.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+      <!-- Debut Nav -->
+     <div id="wrapper">
+
+                        <!-- Sidebar -->
+           <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                        <br>
+                          <!-- Brand and toggle get grouped for better mobile display -->
+                          <div class="navbar-header">
+                         <a class="navbar-brand" href="index.html">Gesto</a>
+                         <br><br><br>
+                          </div>
+                          
+            </nav>
+
+      </div>
+          <!-- fIN nav -->
+                        <br><br> <br> <br> 
+
+       <div class="row" style="margin-right: 10%; margin-left: 10%; ">
+                            <!-- debut forme entete -->
+                <div class="col-lg-12 text-center">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      <form>
+                            <div class="col-lg-4 ">
+
+                                  <div class="form-group">
+                                      <select class="form-control">
+                                          <option>Client</option>
+                                          <option>Ketchup</option>
+                                          <option>Relish</option>
+                                      </select>                                
+                                     
+                                  </div>
+                            </div>      
+                              
+                            <div class="col-lg-4 ">
+                                  <div class="form-group">
+                                      <!--label class="control-label">Login:</label-->
+                                      <input type="text" placeholder="Designation" name="username" class="form-control"/>
+                                     
+                                  </div>
+                            </div>
+                            <div class="col-lg-4 ">
+                                  <div class="form-group">
+                                      <input type="text" placeholder="Cout Total" name="username" class="form-control"/>
+
+                                  </div>
+                            </div>
+                            
+                         </form>
+                     </div>
+                   </div>            
+                 </div>
+                        <!-- fin forme entete -->
+
+
+                <div class="col-lg-4 text-center">
+                   <div class="panel panel-default">
+                   <div class="panel-body">
+                              <!-- Debut formulaire -->
+
+                          <div class="panel panel-primary filterable">
+                              <div class="panel-heading">
+                                <h3 class="panel-title">Ajouter<span style="color: white; font-weight: bold;"> </span></h3>
+
+                              </div>
+
+                              
+                                     <div class="panel-body" style="height: 540%; height:540px;" >
+                                        <form>
+
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>Mustard</option>
+                                                    <option>Ketchup</option>
+                                                    <option>Relish</option>
+                                                </select>                                
+                                               
+                                            </div>
+                                                
+                                        
+
+                                            <div class="form-group">
+                                                <!--label class="control-label">Login:</label-->
+                                                <input type="text" placeholder="Designation" name="username" class="form-control"/>
+                                               
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" placeholder="Mot de Passe" name="password" class="form-control" />
+
+                                            </div>
+                                            <div> 
+
+                                            <button type="button" style="width: 100%;" class="btn btn-primary "><span class="glyphicon glyphicon-saved" aria-hidden="true"> ENREGISTRER</span></button>
+
+                                            </div>
+
+
+                                         </form>
+                                <br><br><br><br><br>
+                                  </div>
+                             
+                              </div>
+                         </div>            
+                       </div>
+                    </div>
+                      <!-- Fin formulaire -->
+                      
+                    <!-- Debut tableau --> 
+                    <div class="col-lg-8 text-center">
+                      <div class="panel panel-default">
+                        <div class="panel-body">
+                          
+
+                              <div class="panel panel-primary filterable">
+                                      <div class="panel-heading">
+                                          <h3 class="panel-title">Liste des Fournisseurs<span style="color: white; font-weight: bold;"></span></h3>
+                                          <div class="pull-right">
+                                            <button type="button" class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
+                                          </div>
+                                        </div>
+                                       <table class="span12">
+                                            <table>
+                                                 <tr class="filters">
+                                                      <th style="width: 4.1%; width:50px;">
+                                                        <div class="checkbox radio-margin">
+                                                          <label>
+                                                            <input type="checkbox" value="">
+                                                            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                                          </label>
+                                                        </div>
+                                                      </th>
+                                                      <th style="width: 48%">
+                                                        <input type="text" class="form-control" placeholder="Cost Center Name" disabled>
+                                                      </th>
+                                                       <th style="width: 48%">
+                                                        <input type="text" class="form-control" placeholder="Cost Center ID" disabled>
+                                                       </th>
+                                                  </tr>
+                                             </table>
+                                              <div class="bg tablescroll" style="height: 500%; height:500px;">
+                                                    <table class="table table-bordered table-striped"  >
+                                                        <tr>
+                                                            <td style="width: 4.1%; width:50px;"> 
+                                                              <div class="checkbox radio-margin">
+                                                                <label>
+                                                                  <input type="checkbox" value="">
+                                                                  <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                                                </label>
+                                                              </div>
+                                                            </td>
+                                                            <td style="width: 48%">BYU-I</td>
+                                                            <td style="width: 48%">542584612548</td>
+                                                        </tr>
+                                               
+                                                    </table>
+                                                </div>
+                                        </table>
+                           
+                              </div>
+                           
+                           </div>
+                        </div>
+                      </div>
+                      <!-- Fin tableau --> 
+
+                     
+                          
+                      
+                 </div><!-- /.row -->
+
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/js_tableau.js"></script>
+
+  </body>
+</html>
